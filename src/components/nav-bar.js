@@ -6,7 +6,7 @@ const NavBar = props => {
       <a href="#">Home</a>
       <a href="#">About</a>
       <a href="#">Space</a>
-      <a href="#">Black-hole</a>
+      <a href="#">Blackhole</a>
     </div>
   );
 };
