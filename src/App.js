@@ -1,17 +1,21 @@
 import React from "react";
-import NavBar from "../src/components/nav-bar";
 import Title from "../src/components/title";
 import Image from "./components/Iotd_display";
-import About from "../src/components/about";
-import Footer from "../src/components/footer";
 import "./App.css";
+import styled from "styled-components";
+
+const Container = styled.div`
+  background-color: gray;
+  max-width: 800px;
+  margin: 0 auto;
+`;
 
 function App() {
   return (
-    <div className="App">
+    <Container className="App">
       <Title />
       <Image />
-    </div>
+    </Container>
   );
 }
 
