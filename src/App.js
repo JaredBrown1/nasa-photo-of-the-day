@@ -1,14 +1,20 @@
 import React from "react";
+import Title from "../src/components/title";
+import Image from "./components/Iotd_display";
 import "./App.css";
+import styled from "styled-components";
+
+const Container = styled.div`
+  background-color: gray;
+  margin: 0 auto;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
-    </div>
+    <Container className="App">
+      <Title />
+      <Image />
+    </Container>
   );
 }
 
